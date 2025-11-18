@@ -1,46 +1,34 @@
 package com.example.salon_booking.config;
 
-import java.util.Arrays;
+import java.util.List;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
-import org.springframework.web.filter.CorsFilter;
 
 @Configuration
 public class CorsConfig {
 
     @Bean
-    public CorsFilter corsFilter() {
-        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+    public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
-
-        // Allow credentials (cookies, authorization headers)
         config.setAllowCredentials(true);
-
-        // Allow any origin (using patterns to support credentials)
-        config.setAllowedOriginPatterns(Arrays.asList("*"));
-
-        // Allow all headers
-        config.setAllowedHeaders(Arrays.asList("*"));
-
-        // Allow all HTTP methods
-        config.setAllowedMethods(Arrays.asList("*"));
-
-        // Expose headers that frontend might need
-        config.setExposedHeaders(Arrays.asList(
+        // Allow all origins (echoes requesting origin when credentials enabled)
+        config.setAllowedOriginPatterns(List.of("*"));
+        config.setAllowedHeaders(List.of("*"));
+        config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"));
+        config.setExposedHeaders(List.of(
                 "Authorization",
                 "Content-Type",
                 "Accept",
                 "X-Requested-With",
                 "Access-Control-Allow-Origin",
                 "Access-Control-Allow-Credentials"));
-
-        // Cache preflight response for 1 hour
         config.setMaxAge(3600L);
-
+        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         source.registerCorsConfiguration("/**", config);
-        return new CorsFilter(source);
+        return source;
     }
 }
