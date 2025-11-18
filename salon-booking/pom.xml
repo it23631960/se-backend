@@ -95,4 +95,14 @@
 		</plugins>
 	</build>
 
+	<profiles>
+		<profile>
+			<id>production</id>
+			<properties>
+				<!-- Skip tests during production packaging -->
+				<maven.test.skip>true</maven.test.skip>
+			</properties>
+		</profile>
+	</profiles>
+
 </project>

@@ -15,8 +15,13 @@ public class CorsConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
-        // Allow all origins (echoes requesting origin when credentials enabled)
-        config.setAllowedOriginPatterns(List.of("*"));
+        // Explicit allowed origins (remove wildcard to ensure header emission behind
+        // proxies)
+        config.setAllowedOrigins(List.of(
+                "https://frontend-zeta-mauve-73.vercel.app",
+                "http://localhost:5173",
+                "http://localhost:3000",
+                "http://localhost:4173"));
         config.setAllowedHeaders(List.of("*"));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"));
         config.setExposedHeaders(List.of(
@@ -28,7 +33,8 @@ public class CorsConfig {
                 "Access-Control-Allow-Credentials"));
         config.setMaxAge(3600L);
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-        source.registerCorsConfiguration("/**", config);
+        // Restrict to API paths only
+        source.registerCorsConfiguration("/api/**", config);
         return source;
     }
 }
