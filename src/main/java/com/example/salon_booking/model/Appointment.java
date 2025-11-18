@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 public class Appointment {
     @Id
     private String id;
-    
+
     private String userId;
     private String salonId;
     private String serviceId;
@@ -22,43 +22,43 @@ public class Appointment {
     private LocalDateTime updatedAt;
 
     // Getters and Setters
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 
-    public Long getUserId() {
+    public String getUserId() {
         return userId;
     }
 
-    public void setUserId(Long userId) {
+    public void setUserId(String userId) {
         this.userId = userId;
     }
 
-    public Long getSalonId() {
+    public String getSalonId() {
         return salonId;
     }
 
-    public void setSalonId(Long salonId) {
+    public void setSalonId(String salonId) {
         this.salonId = salonId;
     }
 
-    public Long getServiceId() {
+    public String getServiceId() {
         return serviceId;
     }
 
-    public void setServiceId(Long serviceId) {
+    public void setServiceId(String serviceId) {
         this.serviceId = serviceId;
     }
 
-    public Long getStaffId() {
+    public String getStaffId() {
         return staffId;
     }
 
-    public void setStaffId(Long staffId) {
+    public void setStaffId(String staffId) {
         this.staffId = staffId;
     }
 
