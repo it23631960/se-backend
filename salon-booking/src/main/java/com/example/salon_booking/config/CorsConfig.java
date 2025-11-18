@@ -19,19 +19,14 @@ public class CorsConfig {
         // Allow credentials (cookies, authorization headers)
         config.setAllowCredentials(true);
 
-        // Allow frontend origins
-        config.setAllowedOrigins(Arrays.asList(
-                "http://localhost:5173", // Vite default port
-                "http://localhost:3000", // Alternative React port
-                "http://localhost:4173", // Vite preview port
-                "https://frontend-zeta-mauve-73.vercel.app" // Deployed frontend
-        ));
+        // Allow any origin (using patterns to support credentials)
+        config.setAllowedOriginPatterns(Arrays.asList("*"));
 
         // Allow all headers
         config.setAllowedHeaders(Arrays.asList("*"));
 
         // Allow all HTTP methods
-        config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
+        config.setAllowedMethods(Arrays.asList("*"));
 
         // Expose headers that frontend might need
         config.setExposedHeaders(Arrays.asList(
