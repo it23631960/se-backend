@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "user1",
+    "username": "sarahj",
+    "email": "sarah.johnson@gmail.com",
+    "password": "password123"
+  },
+  {
+    "_id": "user2",
+    "username": "priyaf",
+    "email": "priya.fernando@gmail.com",
+    "password": "password123"
+  },
+  {
+    "_id": "user3",
+    "username": "mikeyw",
+    "email": "michael.williams@yahoo.com",
+    "password": "password123"
+  },
+  {
+    "_id": "user4",
+    "username": "kumarip",
+    "email": "kumari.perera@gmail.com",
+    "password": "password123"
+  },
+  {
+    "_id": "user5",
+    "username": "davids",
+    "email": "david.silva@outlook.com",
+    "password": "password123"
+  },
+  {
+    "_id": "user6",
+    "username": "ananya_s",
+    "email": "ananya.subramaniam@gmail.com",
+    "password": "password123"
+  },
+  {
+    "_id": "user7",
+    "username": "nimalj",
+    "email": "nimal.jayawardena@gmail.com",
+    "password": "password123"
+  },
+  {
+    "_id": "user8",
+    "username": "emilyc",
+    "email": "emily.chen@gmail.com",
+    "password": "password123"
+  },
+  {
+    "_id": "user9",
+    "username": "rajeshk",
+    "email": "rajesh.kumar@yahoo.com",
+    "password": "password123"
+  },
+  {
+    "_id": "user10",
+    "username": "farahm",
+    "email": "farah.mohamed@gmail.com",
+    "password": "password123"
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "_id": "customer1",
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@gmail.com",
+    "phone": "+94771234567",
+    "createdAt": "2025-09-15T10:30:00Z",
+    "preferredContact": "EMAIL",
+    "notes": "Regular customer, prefers stylist Priya"
+  },
+  {
+    "_id": "customer2",
+    "name": "Priya Fernando",
+    "email": "priya.fernando@gmail.com",
+    "phone": "+94772345678",
+    "createdAt": "2025-08-20T14:15:00Z",
+    "preferredContact": "PHONE",
+    "notes": null
+  },
+  {
+    "_id": "customer3",
+    "name": "Michael Williams",
+    "email": "michael.williams@yahoo.com",
+    "phone": "+94773456789",
+    "createdAt": "2025-09-01T09:00:00Z",
+    "preferredContact": "EMAIL",
+    "notes": "Allergic to certain hair color products - check before treatment"
+  },
+  {
+    "_id": "customer4",
+    "name": "Kumari Perera",
+    "email": "kumari.perera@gmail.com",
+    "phone": "+94774567890",
+    "createdAt": "2025-07-10T16:45:00Z",
+    "preferredContact": "SMS",
+    "notes": "Prefers morning appointments"
+  },
+  {
+    "_id": "customer5",
+    "name": "David Silva",
+    "email": "david.silva@outlook.com",
+    "phone": "+94775678901",
+    "createdAt": "2025-08-05T11:20:00Z",
+    "preferredContact": "PHONE",
+    "notes": null
+  },
+  {
+    "_id": "customer6",
+    "name": "Ananya Subramaniam",
+    "email": "ananya.subramaniam@gmail.com",
+    "phone": "+94776789012",
+    "createdAt": "2025-09-18T13:30:00Z",
+    "preferredContact": "EMAIL",
+    "notes": "First time customer - Sep 18, 2025"
+  },
+  {
+    "_id": "customer7",
+    "name": "Nimal Jayawardena",
+    "email": "nimal.jayawardena@gmail.com",
+    "phone": "+94777890123",
+    "createdAt": "2025-08-12T10:00:00Z",
+    "preferredContact": "PHONE",
+    "notes": null
+  },
+  {
+    "_id": "customer8",
+    "name": "Emily Chen",
+    "email": "emily.chen@gmail.com",
+    "phone": "+94778901234",
+    "createdAt": "2025-09-22T15:10:00Z",
+    "preferredContact": "EMAIL",
+    "notes": "Vegetarian - prefers organic/natural products"
+  },
+  {
+    "_id": "customer9",
+    "name": "Rajesh Kumar",
+    "email": "rajesh.kumar@yahoo.com",
+    "phone": "+94779012345",
+    "createdAt": "2025-07-28T08:45:00Z",
+    "preferredContact": "SMS",
+    "notes": "Regular customer for beard grooming"
+  },
+  {
+    "_id": "customer10",
+    "name": "Farah Mohamed",
+    "email": "farah.mohamed@gmail.com",
+    "phone": "+94770123456",
+    "createdAt": "2025-09-05T12:00:00Z",
+    "preferredContact": "EMAIL",
+    "notes": null
+  },
+  {
+    "_id": "customer11",
+    "name": "Amanda Thompson",
+    "email": "amanda.thompson@yahoo.com",
+    "phone": "+94771987654",
+    "createdAt": "2025-10-01T14:20:00Z",
+    "preferredContact": "EMAIL",
+    "notes": "Guest customer - tourist visiting from Australia"
+  },
+  {
+    "_id": "customer12",
+    "name": "Sanduni Mendis",
+    "email": "sanduni.mendis@gmail.com",
+    "phone": "+94772876543",
+    "createdAt": "2025-09-28T10:15:00Z",
+    "preferredContact": "PHONE",
+    "notes": "Bridal booking for November wedding"
+  },
+  {
+    "_id": "customer13",
+    "name": "James Anderson",
+    "email": "james.anderson@outlook.com",
+    "phone": "+94773765432",
+    "createdAt": "2025-10-03T09:30:00Z",
+    "preferredContact": "EMAIL",
+    "notes": "Guest customer - prefers quick services"
+  },
+  {
+    "_id": "customer14",
+    "name": "Kavitha Sivakumar",
+    "email": "kavitha.sivakumar@gmail.com",
+    "phone": "+94774654321",
+    "createdAt": "2025-09-10T16:00:00Z",
+    "preferredContact": "SMS",
+    "notes": "Sensitive skin - patch test required for coloring"
+  },
+  {
+    "_id": "customer15",
+    "name": "Daniel Brown",
+    "email": "daniel.brown@yahoo.com",
+    "phone": "+94775543210",
+    "createdAt": "2025-10-05T11:45:00Z",
+    "preferredContact": "PHONE",
+    "notes": "Guest customer - referred by friend"
+  }
+]

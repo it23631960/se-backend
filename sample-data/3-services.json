@@ -1,0 +1,272 @@
+[
+  {
+    "_id": "service1",
+    "name": "Men's Haircut",
+    "description": "Professional men's haircut with wash and basic styling. Includes consultation with stylist.",
+    "price": 1500,
+    "durationMinutes": 30,
+    "category": "HAIRCUT",
+    "active": true
+  },
+  {
+    "_id": "service2",
+    "name": "Women's Haircut",
+    "description": "Women's haircut with wash, conditioning treatment, and blow-dry styling.",
+    "price": 2500,
+    "durationMinutes": 60,
+    "category": "HAIRCUT",
+    "active": true
+  },
+  {
+    "_id": "service3",
+    "name": "Full Hair Coloring",
+    "description": "Complete hair coloring service with premium color products. Includes toner and deep conditioning.",
+    "price": 8000,
+    "durationMinutes": 120,
+    "category": "COLORING",
+    "active": true
+  },
+  {
+    "_id": "service4",
+    "name": "Hair Spa Treatment",
+    "description": "Relaxing hair spa with deep conditioning, scalp massage, and steam treatment.",
+    "price": 4000,
+    "durationMinutes": 60,
+    "category": "SPA",
+    "active": true
+  },
+  {
+    "_id": "service5",
+    "name": "Keratin Treatment",
+    "description": "Professional keratin smoothing treatment for frizz-free, silky hair lasting 3-4 months.",
+    "price": 20000,
+    "durationMinutes": 180,
+    "category": "TREATMENT",
+    "active": true
+  },
+  {
+    "_id": "service6",
+    "name": "Kids Haircut",
+    "description": "Gentle haircut for children aged 3-12. Patient stylists, fun environment.",
+    "price": 1000,
+    "durationMinutes": 30,
+    "category": "HAIRCUT",
+    "active": true
+  },
+  {
+    "_id": "service7",
+    "name": "Bridal Hair & Makeup Package",
+    "description": "Complete bridal package with hair styling, makeup, saree draping, and trial session.",
+    "price": 50000,
+    "durationMinutes": 240,
+    "category": "BRIDAL",
+    "active": true
+  },
+  {
+    "_id": "service8",
+    "name": "Highlights/Balayage",
+    "description": "Partial highlights or balayage with natural-looking dimension and color blending.",
+    "price": 12000,
+    "durationMinutes": 150,
+    "category": "COLORING",
+    "active": true
+  },
+  {
+    "_id": "service9",
+    "name": "Blowdry & Styling",
+    "description": "Professional blow-dry with styling for special occasions or everyday elegance.",
+    "price": 2000,
+    "durationMinutes": 45,
+    "category": "STYLING",
+    "active": true
+  },
+  {
+    "_id": "service10",
+    "name": "Hair Extensions",
+    "description": "Premium hair extension installation with natural hair blending and styling.",
+    "price": 15000,
+    "durationMinutes": 120,
+    "category": "STYLING",
+    "active": true
+  },
+  {
+    "_id": "service11",
+    "name": "Classic Manicure",
+    "description": "Traditional manicure with nail shaping, cuticle care, massage, and polish.",
+    "price": 1500,
+    "durationMinutes": 45,
+    "category": "NAILS",
+    "active": true
+  },
+  {
+    "_id": "service12",
+    "name": "Spa Pedicure",
+    "description": "Luxurious pedicure with foot soak, scrub, massage, and polish.",
+    "price": 2500,
+    "durationMinutes": 60,
+    "category": "NAILS",
+    "active": true
+  },
+  {
+    "_id": "service13",
+    "name": "Gel Nails",
+    "description": "Long-lasting gel manicure with UV curing. Lasts 2-3 weeks without chipping.",
+    "price": 3500,
+    "durationMinutes": 90,
+    "category": "NAILS",
+    "active": true
+  },
+  {
+    "_id": "service14",
+    "name": "Facial Treatment (Basic)",
+    "description": "Deep cleansing facial with steam, extraction, mask, and moisturizing.",
+    "price": 3000,
+    "durationMinutes": 60,
+    "category": "SPA",
+    "active": true
+  },
+  {
+    "_id": "service15",
+    "name": "Full Body Massage",
+    "description": "Relaxing 90-minute full body massage with aromatherapy oils.",
+    "price": 6000,
+    "durationMinutes": 90,
+    "category": "SPA",
+    "active": true
+  },
+  {
+    "_id": "service16",
+    "name": "Bridal Trial Session",
+    "description": "Complete bridal makeup and hair trial before your wedding day.",
+    "price": 8000,
+    "durationMinutes": 120,
+    "category": "BRIDAL",
+    "active": true
+  },
+  {
+    "_id": "service17",
+    "name": "Party Makeup",
+    "description": "Glamorous makeup for parties, events, and special occasions.",
+    "price": 5000,
+    "durationMinutes": 60,
+    "category": "BRIDAL",
+    "active": true
+  },
+  {
+    "_id": "service18",
+    "name": "Saree Draping",
+    "description": "Professional saree draping in traditional or modern styles.",
+    "price": 2000,
+    "durationMinutes": 30,
+    "category": "BRIDAL",
+    "active": true
+  },
+  {
+    "_id": "service19",
+    "name": "Henna/Mehendi Design",
+    "description": "Beautiful henna designs for hands and feet. Traditional or contemporary patterns.",
+    "price": 3000,
+    "durationMinutes": 90,
+    "category": "BRIDAL",
+    "active": true
+  },
+  {
+    "_id": "service20",
+    "name": "Groom Grooming Package",
+    "description": "Complete grooming for grooms: haircut, shave, facial, and styling.",
+    "price": 5000,
+    "durationMinutes": 90,
+    "category": "BRIDAL",
+    "active": true
+  },
+  {
+    "_id": "service21",
+    "name": "Beard Trim & Shape",
+    "description": "Precision beard trimming and shaping with hot towel treatment.",
+    "price": 800,
+    "durationMinutes": 30,
+    "category": "HAIRCUT",
+    "active": true
+  },
+  {
+    "_id": "service22",
+    "name": "Hair Straightening",
+    "description": "Permanent hair straightening treatment for smooth, straight hair.",
+    "price": 18000,
+    "durationMinutes": 180,
+    "category": "TREATMENT",
+    "active": true
+  },
+  {
+    "_id": "service23",
+    "name": "Scalp Treatment",
+    "description": "Specialized scalp treatment for dandruff, dryness, or hair fall concerns.",
+    "price": 3500,
+    "durationMinutes": 60,
+    "category": "TREATMENT",
+    "active": true
+  },
+  {
+    "_id": "service24",
+    "name": "Hair Braiding Styles",
+    "description": "Creative braiding styles including box braids, cornrows, and fishtail.",
+    "price": 2500,
+    "durationMinutes": 90,
+    "category": "STYLING",
+    "active": true
+  },
+  {
+    "_id": "service25",
+    "name": "Color Touch-Up (Roots)",
+    "description": "Root color touch-up for maintaining your hair color between full treatments.",
+    "price": 3500,
+    "durationMinutes": 60,
+    "category": "COLORING",
+    "active": true
+  },
+  {
+    "_id": "service26",
+    "name": "Express Haircut",
+    "description": "Quick haircut service for busy professionals. No wash included.",
+    "price": 1200,
+    "durationMinutes": 20,
+    "category": "HAIRCUT",
+    "active": true
+  },
+  {
+    "_id": "service27",
+    "name": "Premium Facial Treatment",
+    "description": "Luxury anti-aging facial with serums, LED therapy, and face massage.",
+    "price": 8000,
+    "durationMinutes": 90,
+    "category": "SPA",
+    "active": true
+  },
+  {
+    "_id": "service28",
+    "name": "Waxing (Full Arms & Legs)",
+    "description": "Complete waxing service for smooth, hair-free arms and legs.",
+    "price": 2500,
+    "durationMinutes": 60,
+    "category": "SPA",
+    "active": true
+  },
+  {
+    "_id": "service29",
+    "name": "Threading (Eyebrows & Upper Lip)",
+    "description": "Precise threading for perfectly shaped eyebrows and upper lip hair removal.",
+    "price": 500,
+    "durationMinutes": 15,
+    "category": "THREADING",
+    "active": true
+  },
+  {
+    "_id": "service30",
+    "name": "Beach Waves Styling",
+    "description": "Relaxed, beachy waves perfect for casual and coastal vibes.",
+    "price": 2200,
+    "durationMinutes": 45,
+    "category": "STYLING",
+    "active": true
+  }
+]

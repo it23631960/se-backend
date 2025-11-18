@@ -1,0 +1,138 @@
+[
+  {
+    "_comment": "SAMPLE TIME SLOTS - Salon 1, October 11, 2025",
+    "_note": "Full dataset: 6 salons × 7 days × 16 slots/day = 672 total slots",
+    "_instruction": "Use DataInitializer.java or generate-timeslots.py for full generation"
+  },
+  {
+    "_id": "slot001",
+    "date": "2025-10-11",
+    "startTime": "09:00",
+    "endTime": "09:30",
+    "isAvailable": true,
+    "salon": { "$ref": "salons", "$id": "salon1" }
+  },
+  {
+    "_id": "slot002",
+    "date": "2025-10-11",
+    "startTime": "09:30",
+    "endTime": "10:00",
+    "isAvailable": true,
+    "salon": { "$ref": "salons", "$id": "salon1" }
+  },
+  {
+    "_id": "slot003",
+    "date": "2025-10-11",
+    "startTime": "10:00",
+    "endTime": "10:30",
+    "isAvailable": false,
+    "salon": { "$ref": "salons", "$id": "salon1" }
+  },
+  {
+    "_id": "slot004",
+    "date": "2025-10-11",
+    "startTime": "10:30",
+    "endTime": "11:00",
+    "isAvailable": true,
+    "salon": { "$ref": "salons", "$id": "salon1" }
+  },
+  {
+    "_id": "slot005",
+    "date": "2025-10-11",
+    "startTime": "11:00",
+    "endTime": "11:30",
+    "isAvailable": true,
+    "salon": { "$ref": "salons", "$id": "salon1" }
+  },
+  {
+    "_id": "slot006",
+    "date": "2025-10-11",
+    "startTime": "11:30",
+    "endTime": "12:00",
+    "isAvailable": false,
+    "salon": { "$ref": "salons", "$id": "salon1" }
+  },
+  {
+    "_id": "slot007",
+    "date": "2025-10-11",
+    "startTime": "12:00",
+    "endTime": "12:30",
+    "isAvailable": true,
+    "salon": { "$ref": "salons", "$id": "salon1" }
+  },
+  {
+    "_id": "slot008",
+    "date": "2025-10-11",
+    "startTime": "12:30",
+    "endTime": "13:00",
+    "isAvailable": true,
+    "salon": { "$ref": "salons", "$id": "salon1" }
+  },
+  {
+    "comment": "LUNCH BREAK 13:00-14:00 - No slots"
+  },
+  {
+    "_id": "slot009",
+    "date": "2025-10-11",
+    "startTime": "14:00",
+    "endTime": "14:30",
+    "isAvailable": true,
+    "salon": { "$ref": "salons", "$id": "salon1" }
+  },
+  {
+    "_id": "slot010",
+    "date": "2025-10-11",
+    "startTime": "14:30",
+    "endTime": "15:00",
+    "isAvailable": false,
+    "salon": { "$ref": "salons", "$id": "salon1" }
+  },
+  {
+    "_id": "slot011",
+    "date": "2025-10-11",
+    "startTime": "15:00",
+    "endTime": "15:30",
+    "isAvailable": true,
+    "salon": { "$ref": "salons", "$id": "salon1" }
+  },
+  {
+    "_id": "slot012",
+    "date": "2025-10-11",
+    "startTime": "15:30",
+    "endTime": "16:00",
+    "isAvailable": true,
+    "salon": { "$ref": "salons", "$id": "salon1" }
+  },
+  {
+    "_id": "slot013",
+    "date": "2025-10-11",
+    "startTime": "16:00",
+    "endTime": "16:30",
+    "isAvailable": true,
+    "salon": { "$ref": "salons", "$id": "salon1" }
+  },
+  {
+    "_id": "slot014",
+    "date": "2025-10-11",
+    "startTime": "16:30",
+    "endTime": "17:00",
+    "isAvailable": false,
+    "salon": { "$ref": "salons", "$id": "salon1" }
+  },
+  {
+    "_id": "slot015",
+    "date": "2025-10-11",
+    "startTime": "17:00",
+    "endTime": "17:30",
+    "isAvailable": true,
+    "salon": { "$ref": "salons", "$id": "salon1" }
+  },
+  {
+    "_id": "slot016",
+    "date": "2025-10-11",
+    "startTime": "17:30",
+    "endTime": "18:00",
+    "isAvailable": true,
+    "salon": { "$ref": "salons", "$id": "salon1" }
+  }
+]
