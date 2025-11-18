@@ -1,0 +1,51 @@
+[
+  {
+    "_id": "salon1",
+    "name": "Elite Hair Studio",
+    "type": "hair-salon",
+    "description": "Premium hair care services in the heart of Colombo. Specializing in modern cuts, coloring, and bridal hair styling with experienced stylists.",
+    "bannerImage": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200",
+    "images": [
+      "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=800",
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800",
+      "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800"
+    ],
+    "reviews": [],
+    "address": "456 Galle Road, Colombo 03, Western Province, Sri Lanka",
+    "phone": "+94112345001",
+    "email": "info@elitehair.lk",
+    "services": [],
+    "openTime": "09:00",
+    "closeTime": "18:00",
+    "available": true,
+    "manager": "Priya Fernando",
+    "bookings": [],
+    "slotsBooked": [],
+    "averageRating": 4.7,
+    "totalReviews": 12
+  },
+  {
+    "_id": "salon2",
+    "name": "Golden Locks Salon",
+    "type": "hair-salon",
+    "description": "Kandy's premier destination for luxurious hair treatments, bridal packages, and creative styling. Over 15 years of excellence in hair care.",
+    "bannerImage": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=1200",
+    "images": [
+      "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=800",
+      "https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=800"
+    ],
+    "reviews": [],
+    "address": "78 Peradeniya Road, Kandy, Central Province, Sri Lanka",
+    "phone": "+94812345678",
+    "email": "contact@goldenlocks.lk",
+    "services": [],
+    "openTime": "09:00",
+    "closeTime": "18:00",
+    "available": true,
+    "manager": "Kumari Wickramasinghe",
+    "bookings": [],
+    "slotsBooked": [],
+    "averageRating": 4.5,
+    "totalReviews": 8
+  }
+]

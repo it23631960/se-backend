@@ -23,7 +23,7 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/api/salons")
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000"})
+@CrossOrigin(origins = { "http://localhost:5173", "http://localhost:3000" })
 public class SalonController {
 
     @Autowired
@@ -54,6 +54,7 @@ public class SalonController {
                 .orElseThrow(() -> new ResourceNotFoundException("Salon not found with id: " + id));
 
         salon.setName(salonDetails.getName());
+        salon.setType(salonDetails.getType());
         salon.setDescription(salonDetails.getDescription());
         salon.setBannerImage(salonDetails.getBannerImage());
         salon.setImages(salonDetails.getImages());

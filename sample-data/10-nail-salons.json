@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "salon6",
+    "name": "Polished Nails & Spa",
+    "type": "nail-salon",
+    "description": "Coastal nail salon in Matara offering manicures, pedicures, nail art, and spa treatments with ocean views. Perfect pampering experience.",
+    "bannerImage": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=1200",
+    "images": [
+      "https://images.unsplash.com/photo-1560869713-7d0a29430803?w=800",
+      "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800"
+    ],
+    "reviews": [],
+    "address": "34 Beach Road, Matara, Southern Province, Sri Lanka",
+    "phone": "+94412345678",
+    "email": "hello@polishednails.lk",
+    "services": [],
+    "openTime": "09:00",
+    "closeTime": "18:00",
+    "available": true,
+    "manager": "Farah Mohamed",
+    "bookings": [],
+    "slotsBooked": [],
+    "averageRating": 4.6,
+    "totalReviews": 5
+  },
+  {
+    "_id": "salon7",
+    "name": "Luxury Nails Studio",
+    "type": "nail-salon",
+    "description": "Premier nail studio in Colombo specializing in gel nails, acrylic extensions, nail art, and luxury hand & foot spa treatments.",
+    "bannerImage": "https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=1200",
+    "images": [
+      "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=800",
+      "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800"
+    ],
+    "reviews": [],
+    "address": "123 Duplication Road, Colombo 04, Western Province, Sri Lanka",
+    "phone": "+94112345999",
+    "email": "info@luxurynails.lk",
+    "services": [],
+    "openTime": "10:00",
+    "closeTime": "19:00",
+    "available": true,
+    "manager": "Nisha Perera",
+    "bookings": [],
+    "slotsBooked": [],
+    "averageRating": 4.7,
+    "totalReviews": 9
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "salon3",
+    "name": "Gentleman's Cut Barber Shop",
+    "type": "barber-shop",
+    "description": "Traditional and modern barbering in Galle. Expert beard trims, classic cuts, hot towel shaves, and grooming services for the modern gentleman.",
+    "bannerImage": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1200",
+    "images": [
+      "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=800",
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=800"
+    ],
+    "reviews": [],
+    "address": "23 Rampart Street, Galle Fort, Galle, Southern Province, Sri Lanka",
+    "phone": "+94912345678",
+    "email": "info@gentlemanscut.lk",
+    "services": [],
+    "openTime": "09:00",
+    "closeTime": "19:00",
+    "available": true,
+    "manager": "Rohan Silva",
+    "bookings": [],
+    "slotsBooked": [],
+    "averageRating": 4.8,
+    "totalReviews": 10
+  },
+  {
+    "_id": "salon5",
+    "name": "The Classic Barber",
+    "type": "barber-shop",
+    "description": "Modern barber shop in Jaffna offering trendy haircuts, beard styling, and grooming services. Walk-ins welcome!",
+    "bannerImage": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1200",
+    "images": [
+      "https://images.unsplash.com/photo-1562004760-acb5f7f99a84?w=800",
+      "https://images.unsplash.com/photo-1620331311520-246422fd82f9?w=800"
+    ],
+    "reviews": [],
+    "address": "89 Hospital Road, Jaffna, Northern Province, Sri Lanka",
+    "phone": "+94212345678",
+    "email": "info@classicbarber.lk",
+    "services": [],
+    "openTime": "09:00",
+    "closeTime": "20:00",
+    "available": true,
+    "manager": "Rajesh Kumar",
+    "bookings": [],
+    "slotsBooked": [],
+    "averageRating": 4.3,
+    "totalReviews": 7
+  }
+]

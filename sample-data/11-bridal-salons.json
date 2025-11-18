@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "salon4",
+    "name": "Royal Bridal Salon",
+    "type": "bridal-salon",
+    "description": "Negombo's top bridal salon specializing in wedding hair, makeup, and saree draping. Make your special day unforgettable with our expert team.",
+    "bannerImage": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1200",
+    "images": [
+      "https://images.unsplash.com/photo-1595475207225-428b62bda831?w=800",
+      "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=800"
+    ],
+    "reviews": [],
+    "address": "145 Lewis Place, Negombo, Western Province, Sri Lanka",
+    "phone": "+94312345678",
+    "email": "bookings@royalbridal.lk",
+    "services": [],
+    "openTime": "09:00",
+    "closeTime": "18:00",
+    "available": true,
+    "manager": "Sanduni Mendis",
+    "bookings": [],
+    "slotsBooked": [],
+    "averageRating": 4.9,
+    "totalReviews": 6
+  },
+  {
+    "_id": "salon8",
+    "name": "Dreamday Bridal Studio",
+    "type": "bridal-salon",
+    "description": "Complete bridal makeover services in Kandy. Specializing in traditional Kandyan bridal looks, modern makeup, and photography packages.",
+    "bannerImage": "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200",
+    "images": [
+      "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800",
+      "https://images.unsplash.com/photo-1595475207225-428b62bda831?w=800"
+    ],
+    "reviews": [],
+    "address": "56 Kotugodella Veediya, Kandy, Central Province, Sri Lanka",
+    "phone": "+94812229988",
+    "email": "bookings@dreamdaybridal.lk",
+    "services": [],
+    "openTime": "08:00",
+    "closeTime": "18:00",
+    "available": true,
+    "manager": "Chamika Rathnayake",
+    "bookings": [],
+    "slotsBooked": [],
+    "averageRating": 4.8,
+    "totalReviews": 11
+  }
+]
