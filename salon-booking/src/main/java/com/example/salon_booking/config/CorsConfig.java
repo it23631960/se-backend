@@ -22,7 +22,7 @@ public class CorsConfig {
         // Allow frontend origins
         config.setAllowedOrigins(Arrays.asList(
                 // Vite preview port
-                "https://frontend-zeta-mauve-73.vercel.app" // Deployed frontend
+                "https://frontend-zeta-mauve-73.vercel.app/" // Deployed frontend
         ));
 
         // Allow all headers
