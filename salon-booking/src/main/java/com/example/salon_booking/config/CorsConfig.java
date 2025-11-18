@@ -1,40 +1,49 @@
 package com.example.salon_booking.config;
 
-import java.util.List;
+import java.util.Arrays;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.cors.CorsConfiguration;
-import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+import org.springframework.web.filter.CorsFilter;
 
 @Configuration
 public class CorsConfig {
 
     @Bean
-    public CorsConfigurationSource corsConfigurationSource() {
+    public CorsFilter corsFilter() {
+        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         CorsConfiguration config = new CorsConfiguration();
+
+        // Allow credentials (cookies, authorization headers)
         config.setAllowCredentials(true);
-        // Explicit allowed origins (remove wildcard to ensure header emission behind
-        // proxies)
-        config.setAllowedOrigins(List.of(
-                "https://frontend-zeta-mauve-73.vercel.app",
-                "http://localhost:5173",
-                "http://localhost:3000",
-                "http://localhost:4173"));
-        config.setAllowedHeaders(List.of("*"));
-        config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"));
-        config.setExposedHeaders(List.of(
+
+        // Allow frontend origins
+        config.setAllowedOrigins(Arrays.asList(
+                // Vite preview port
+                "https://frontend-zeta-mauve-73.vercel.app" // Deployed frontend
+        ));
+
+        // Allow all headers
+        config.setAllowedHeaders(Arrays.asList("*"));
+
+        // Allow all HTTP methods
+        config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
+
+        // Expose headers that frontend might need
+        config.setExposedHeaders(Arrays.asList(
                 "Authorization",
                 "Content-Type",
                 "Accept",
                 "X-Requested-With",
                 "Access-Control-Allow-Origin",
                 "Access-Control-Allow-Credentials"));
+
+        // Cache preflight response for 1 hour
         config.setMaxAge(3600L);
-        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-        // Restrict to API paths only
-        source.registerCorsConfiguration("/api/**", config);
-        return source;
+
+        source.registerCorsConfiguration("/**", config);
+        return new CorsFilter(source);
     }
 }

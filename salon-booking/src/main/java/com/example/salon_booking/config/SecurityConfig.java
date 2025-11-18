@@ -2,7 +2,6 @@ package com.example.salon_booking.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
@@ -20,8 +19,8 @@ public class SecurityConfig {
                 // Disable CSRF for REST APIs (enable it later with proper token handling)
                 .csrf(csrf -> csrf.disable())
 
-                // Enable CORS with defaults (uses CorsConfigurationSource bean)
-                .cors(Customizer.withDefaults())
+                // Configure CORS
+                .cors(cors -> cors.configure(http))
 
                 // Configure authorization
                 .authorizeHttpRequests(auth -> auth
